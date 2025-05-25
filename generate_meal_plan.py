@@ -9,9 +9,12 @@ meals = [
     "Pellkartoffeln mit Quark"
 ]
 
+days = ["Samstag", "Sonntag", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag"]
 
+selected_meals = random.sample(meals, 7)
 
-week_plan = random.sample(meals, 7)
+# Combine into a list of dictionaries
+meal_plan = [{"Tag": day, "Gericht": meal} for day, meal in zip(days, selected_meals)]
 
 with open("meal_plan.json", "w") as f:
-    json.dump(week_plan, f)
+    json.dump(meal_plan, f)

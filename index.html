@@ -25,12 +25,12 @@
       .then(response => response.json())
       .then(data => {
         const ul = document.getElementById('meal-list'); 
-        data.forEach((meal, index) => {
-          const li = document.createElement('li');       
-          li.textContent = `Day ${index + 1}: ${meal}`;   
-          ul.appendChild(li);                             
-    });
-  });
+        data.forEach(item => {
+            const li = document.createElement('li');
+            li.textContent = `${item.Tag}: ${item.Gericht}`;
+            ul.appendChild(li);
+          });
+      });
     </script>
 
     
