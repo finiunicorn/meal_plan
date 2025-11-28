@@ -2,7 +2,7 @@ import random
 import json
 
 meals = [
-    "Kartoffelpüree mit Erbsen, Mören und Ei", "Risi Bisi", "Tacos", "Shakshuka", "Nudeln mit Soße",
+    "Kartoffelpüree mit Erbsen, Möhren und Ei", "Risi Bisi", "Tacos", "Shakshuka", "Nudeln mit Soße",
     "Pizza", "Erbsensuppe", "Burger", "Bulgurauflauf", "Linsensuppe", "Tomatenreis", "Curry mit Reis/Couscous",
     "Bretonische Bohnensuppe", "Oliven-Feta-Knödel", "Mie-Nudeln mit Gemüse", "Kartoffelsalat", "Gurkensuppe",
     "Gazpacho", "Bärlauch/Basilikum Klöße mit Tomatensoße", "Haloumni Omelett", "Ofengemüse", "Kartoffelgratin",
